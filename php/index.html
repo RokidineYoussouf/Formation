@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <title>Outils de Formation Gemini 1.5 & ChatGPT</title>
+    
+    <link rel="stylesheet" type="text/css" media="screen,projection,print" href="images/setup.css" />
+    <link rel="stylesheet" type="text/css" media="screen,projection,print" href="images/text.css" />
+    <link rel="stylesheet" type="text/css" media="screen,projection,print" href="images/plan.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" media="screen,projection,print" href="highlight.js/styles/googlecode.css" />
+    <script src="highlight.js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <link href="images/pygmentize.css" rel="stylesheet" />
+    <script type="text/javascript" src="images/calendar_fr.js"></script>
+    <link type="text/css" rel="stylesheet" href="images/calendar.css"> 
+    <style>
+        .sitemessage {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .sitemessage .logo {
+            max-height: 200px; /* Ajustez cette valeur selon la taille souhaitée pour le logo */
+            margin-left: 20px; /* Espace entre le texte et le logo */
+        }
+
+        .footer p {
+            text-align: center; /* Centrer le texte dans le pied de page */
+            margin: 0; /* Supprimer la marge par défaut */
+            padding: 20px 0; /* Ajouter un peu de padding pour espacer le texte */
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <div class="header">
+            <div class="header-top">
+                <a class="sitelogo" href="index.php" title="Retourner à l'accueil"></a>
+                <div class="sitename">
+                <center>
+                    &nbsp; &nbsp;<h1><a href="index.php" title="Outils informatiques">Outils de Formation Gemini 1.5 & ChatGPT</a></h1>
+                    <center>
+                </div>
+            </div>
+            <div class="header-middle">
+                <div class="sitemessage">
+                    <h1>Stage Vauché 2024&nbsp;&nbsp;&nbsp;</h1>
+                    <img src="logovauche.png" alt="Logo" class="logo">
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="nav2">
+                    <ul><li><a href="documents.php" >Documents</a></li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <br /><br />
+            <center>
+                <a href="documents.php?unite=PhpMysql">PhpMysql</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="documents.php?unite=Virtualisation">Virtualisation</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="documents.php?unite=Git">Git</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="documents.php?unite=Docker">Docker</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            </center>
+            <br /><hr><br />
+            <a name="Virtualisation"></a>
+            <center><h1>Présentation</h1></center>
+            <br />
+            <center>
+                <a href="#premieres_commandes">Importance des Outils d'IA</a>&nbsp;&nbsp;
+                <a href="#installation">Créer un compte </a>&nbsp;&nbsp;
+                <a href="#reseau">Configuration réseau</a>&nbsp;&nbsp;
+                <a href="#archive">Sauvegarde du projet</a>&nbsp;&nbsp;
+            </center>
+            <br /><br /><hr />
+            <center><a id="Importance des Outils d'IA"><b> Importance des Outils d'IA</b> </a><br /></center><hr />
+            <ul>
+                <div class="slide-container">
+                <ul>
+                    <li>
+                        Les outils d'IA, tels que Gemini 1.5 et ChatGPT, révolutionnent la façon dont nous abordons les problèmes complexes. Ils offrent des solutions automatisées, rapides et précises dans divers domaines.
+                    </li>
+                    <li>
+                        Ces outils permettent d'améliorer l'efficacité, de réduire les coûts et de fournir des insights précieux à partir de vastes quantités de données.
+                    </li>
+                    <li>
+                        En intégrant l'IA dans les processus métiers, les entreprises peuvent bénéficier d'une compétitivité accrue et d'une meilleure prise de décision.
+                    </li>
+                    <p>Cette documentation vous guidera à travers les caractéristiques, les utilisations pratiques et les exemples concrets de ces outils, tout en expliquant pourquoi ils sont essentiels dans le paysage technologique actuel.</p>              
+                </ul>
+            </div>
+            </ul>
+            <br /><br /><hr />
+            <center><a id="gemini-account"><b> Comment créer un compte Gemini 1.5</b> </a><br /></center><hr />
+
+            <div class="slide-container">
+                <ul>
+                    <li>
+                        Accédez à la page de création de compte Gemini en cliquant sur ce lien : <a target="_Gemini" href="https://ai.google.dev/aistudio?hl=fr">Créer un compte Gemini</a>.
+                    </li>
+                    <center><a href="images3.png"><img  width="400" src="images3.png"></a></center></center>
+                    
+                    <li>
+                        Remplissez les informations nécessaires telles que votre nom, adresse e-mail et mot de passe.
+                    </li>
+                    <li>
+                        Vérifiez votre adresse e-mail en cliquant sur le lien de confirmation envoyé par Gemini.
+                    </li>
+                    <li>
+                        Complétez le processus de vérification d'identité en fournissant les documents requis.
+                    </li>
+                    <li>
+                        Configurez les paramètres de sécurité tels que l'authentification à deux facteurs pour sécuriser votre compte.
+                    </li>
+                    <li>
+                        Une fois votre compte créé et vérifié, vous pouvez commencer à utiliser Gemini pour vos transactions.
+                    </li>        
+                </ul>
+            </div>
+            
+            <hr />
+            <center><a id="reseau"><b>Gemini 1.5</b></a><br /></center><hr />
+            <ul>
+                <li><b>Introduction</b> (éteinte)<br />
+                <p>Les outils d'intelligence artificielle (IA) sont en train de transformer divers secteurs en automatisant des tâches complexes, en fournissant des analyses précises et en améliorant la prise de décision. Dans cette documentation, nous allons discuter de deux outils d'IA avancés : Gemini 1.5 et ChatGPT.</p> <center><a href="images1.png"><img  width="400" src="images1.png"></a></center>
+                <p><b>Gemini 1.5</b> est une plateforme d'IA conçue pour offrir des solutions avancées dans divers domaines. Elle intègre des algorithmes sophistiqués pour analyser de grandes quantités de données et fournir des résultats précis et exploitables. Que ce soit pour des applications commerciales, des recherches scientifiques ou des analyses de données, Gemini 1.5 est un outil polyvalent et puissant <b>:</b> </p>  
+                
+                <b>Caractéristique version 15 Fev 2024</b> <b>:</b>
+                <center><a href="images2.png"><img  width="400" src="images2.png"></a></center>
+                <b>Caractéristique version 14 Mai, 2024 </b> <b>:</b>
+                <center><a href="images4.png"><img  width="400" src="images4.png"></a></center>
+                Démo en deux parties de Project Astra, notre vision pour l'avenir des assistants IA. Chaque partie a été capturée en une seule prise, en temps réel.              
+                <center><a href="https://youtu.be/nXVvvRhiGjI">Voir ICI</a> </center>
+                </li>
+            </ul 
+            <h2>Exemples</h2>
+                <p>Voici quelques exemples d'utilisation de Gemini 1.5 :</p>
+                <ul>
+                    <li>Exemple 1</li>
+                    <li>Exemple 2</li>
+                    <li>Exemple 3</li>
+            <br />
+            <hr />
+             <center><a id="chatgpt">ChatGPT</a><br /></center><hr />
+            <div class="slide-container">
+                <h2>Introduction</h2>
+                <p><b>ChatGPT</b>, développé par OpenAI, est un modèle de langage basé sur l'architecture GPT-3.5. Il est capable de comprendre et de générer du texte de manière naturelle et cohérente. ChatGPT est utilisé dans une variété d'applications, allant des assistants virtuels à la génération de contenu en passant par la création de dialogues interactifs.</p>
+                <h2>Caractéristiques</h2>
+                <ul>
+                    <li>Caractéristique 1</li>
+                    <li>Caractéristique 2</li>
+                    <li>Caractéristique 3</li>
+                </ul>
+                <h2>Utilisations Pratiques</h2>
+                <p>ChatGPT peut être utilisé pour...</p>
+                <h2>Exemples</h2>
+                <p>Voici quelques exemples d'utilisation de ChatGPT :</p>
+                <ul>
+                    <li>Exemple 1</li>
+                    <li>Exemple 2</li>
+                    <li>Exemple 3</li>
+                </ul>
+                <center><a href="path/to/example2.png"><img width="400" src="path/to/example2.png" alt="Exemple 2"></a></center>
+            </div>
+            <hr />
+            
+            <br />
+            <center><a id="archive"><b> Comparaison</b> </a><br /></center><hr />
+            <ul>
+                <li>
+                    aaaaaa
+                </li>
+            </ul>
+            <hr />
+            
+            <center>
+               <a href="#introduction">Introduction</a>&nbsp;&nbsp;
+                <a href="#importance">Importance des Outils d'IA</a>&nbsp;&nbsp;
+                <a href="#gemini">Gemini 1.5</a>&nbsp;&nbsp;
+                <a href="#chatgpt">ChatGPT</a>&nbsp;&nbsp;
+                <a href="#comparaison">Comparaison</a>&nbsp;&nbsp;
+                <a href="#conclusion">Conclusion</a>&nbsp;&nbsp;
+            </center>
+            <hr>
+            <br />
+        </div>
+        <div class="footer">
+            <p>Copyright © 2024 &nbsp; YOUSSOUF ROKI-DINE</p>
+        </div>
+    </div>
+</body>
+</html>
