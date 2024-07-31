@@ -1,4 +1,4 @@
-# Formation
+# Formations
 <!DOCTYPE html>
 <html lang="fr">
 <head>
